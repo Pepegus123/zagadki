@@ -1,0 +1,57 @@
+ body { /* Дизайн страницы*/
+font : 75% "Trebuchet MS", arial, helvetica, sans-serif;
+line-height : 1.8em;
+color : #05386B;
+background : #5CDB95;
+}
+  .main_page_text { /* Дизайн текста главной страницы*/
+    width: 200px; 
+	font : 100% "Trebuchet MS", arial, helvetica, sans-serif;
+    padding: 5px; 
+    float: left; 
+    top: 40px; 
+    left: -70px; 
+   }
+   
+
+
+/* Дизайн навигации*/
+
+.navigation a {
+    float: left;
+    color: #EDF5E1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navigation a.active {
+    background-color: #05386B;
+	font : 200% "Trebuchet MS", arial, helvetica, sans-serif;
+    color: white;
+	vertical-align: bottom;
+}
+
+.otvet {
+  /* Поворачиваем текст */
+  transform: rotate(180deg);
+  /* Закрепим итоговый результат*/
+  text-align: right;
+  left : 20%
+}
+ 
+
+.zagadka {
+line-height: 1;
+}
+
+.br {
+line-height: 3;
+}
